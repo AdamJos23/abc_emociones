@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituciones de apoyo</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+            background-color: rgb(225, 240, 220);
+        }
+
+        nav {
+            background-color: rgba(17, 94, 58, 0.616);
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: rgb(255, 255, 255);
+            background-color: rgba(137, 245, 137, 0.473);
+            padding: 14px 20px;
+            margin: 6px;
+            border-radius: 15px;
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: rgb(151, 179, 143);
+            color: rgba(29, 153, 35, 0.829);
+        }
+
+        h1 {
+            text-align: center;
+            color: rgb(4, 78, 33);
+            margin-top: 30px;
+        }
+
+        h2 {
+            text-align: center;
+            color: black;
+        }
+
+        .columna-vertical {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            max-width: 900px;
+            margin: 35px auto;
+        }
+
+        .card {
+            background-color: rgb(159, 232, 250);
+            border-radius: 10px;
+            padding: 20px;
+            width: 500px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            width: 200px;
+            height: 140px;
+        }
+
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
+            background-color: rgb(4, 78, 33);
+            color: white;
+            text-decoration: none;
+            padding: 8px 14px;
+            border-radius: 5px;
+        }
+
+        .izquierda {
+            margin-right: auto;
+        }
+
+        .derecha {
+            margin-left: auto;
+        }
+
+        .centro {
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="home.html">Inicio</a>
+        <a href="programa_abc.html">Descripcion del programa</a>
+        <a href="actividad_recreativa.html">Actividades Recreativas</a>
+        <a href="directorio_de_apoyo.html">Directorios de apoyo</a>
+        <a href="secciones_informativas.html">Secciones informativas</a>
+        <a href="integrantes.html">Integrantes</a>
+        <a href="formulario.html">Formulario</a>
+    </nav>
+
+    <h1>Instituciones de apoyo</h1>
+
+    <div class="columna-vertical">
+        <div class="card izquierda">
+            <img src="img/vida.jpg">
+            <h2>Línea de la Vida (Secretaría de Salud):</h2>
+            <p>Es el canal nacional principal de atención psicológica y emocional gratuita y confidencial.</p>
+            <a href="https://www.gob.mx/conasama/articulos/linea-de-la-vida" target="_blank">Visitar Línea de la Vida</a>
+        </div>
+
+        <div class="card derecha">
+            <img src="img/seguridad.jpg">
+            <h2>Consejo Ciudadano (Línea de Seguridad y Chat de Confianza):</h2>
+            <p>Brinda primeros auxilios psicológicos, contención emocional y orientación ante situaciones de riesgo o violencia digital.</p>
+            <a href="https://www.consejociudadanomx.org/asi-te-ayudamos/linea-de-seguridad-y-chat-de-confianza" target="_blank">Ir a Consejo Ciudadano</a>
+        </div>
+
+        <div class="card centro">
+            <img src="img/saptel.jpg">
+            <h2>SAPTEL (Sistema Nacional de Apoyo, Consejo Psicológico e Intervención en Crisis por Teléfono):</h2>
+            <p>Es un servicio de atención psicológica a distancia operado por especialistas.</p>
+            <a href="https://saludmental.unam.mx/" target="_blank">Abrir SAPTEL</a>
+        </div>
+    </div>
+
+</body>
+</html>

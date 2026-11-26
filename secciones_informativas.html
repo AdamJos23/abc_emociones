@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secciones informativas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+            background-color: rgb(225, 240, 220);
+        }
+
+        nav {
+            background-color: rgba(17, 94, 58, 0.616);
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: rgb(255, 255, 255);
+            background-color: rgba(137, 245, 137, 0.473);
+            padding: 14px 20px;
+            margin: 6px;
+            border-radius: 15px;
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: rgb(151, 179, 143);
+            color: rgba(29, 153, 35, 0.829);
+        }
+
+        h1 {
+            text-align: center;
+            color: rgb(4, 78, 33);
+            margin-top: 30px;
+        }
+
+        h2 {
+            text-align: center;
+            color: black;
+        }
+
+        .columna-vertical {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            max-width: 900px;
+            margin: 35px auto;
+        }
+
+        .card {
+            background-color: rgb(159, 232, 250);
+            border-radius: 10px;
+            padding: 20px;
+            width: 500px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            width: 180px;
+            height: 140px;
+        }
+
+        .izquierda {
+            margin-right: auto;
+        }
+
+        .derecha {
+            margin-left: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="home.html">Inicio</a>
+        <a href="programa_abc.html">Descripcion del programa</a>
+        <a href="actividad_recreativa.html">Actividades Recreativas</a>
+        <a href="directorio_de_apoyo.html">Directorios de apoyo</a>
+        <a href="secciones_informativas.html">Secciones informativas</a>
+        <a href="integrantes.html">Integrantes</a>
+        <a href="formulario.html">Formulario</a>
+    </nav>
+
+    <h1>Secciones informativas</h1>
+
+    <div class="columna-vertical">
+        <div class="card izquierda">
+            <img src="img/adolescente.jpg">
+            <h2>Para adolescentes</h2>
+            <p>Para reconocer cómo nos afectan las redes sociales, los juegos en línea y la comparación constante, presta atención a cómo cambian tu ánimo, sueño y energía al desconectarte. Emocionalmente, se nota si sientes irritabilidad, vacío, ansiedad por perderte algo o insatisfacción con tu vida al compararte con los demás. En tus hábitos, las señales incluyen perder horas de sueño, descuidar responsabilidades o usar las pantallas como escape automático ante el estrés. Para evaluarte, califica tu bienestar del 1 al 10 antes y después de conectarte, haz una pausa de 24 horas para observar cómo reaccionas y deja de seguir cuentas que te hagan sentir menos.</p>
+        </div>
+
+        <div class="card derecha">
+            <img src="img/maestro.jpg">
+            <h2>Para maestros</h2>
+            <p>Para acompañar el bienestar socioemocional de los estudiantes en el aula, es clave observar cambios bruscos en su conducta habitual, como aislamiento, irritabilidad, desinterés académico o cansancio constante. En la rutina diaria, ayuda iniciar la clase con un breve registro emocional sin forzar la participación, validar sus sentimientos antes de corregir una conducta, crear un entorno seguro frente al error, fomentar el trabajo en equipo y permitir pausas breves cuando estén sobrepasados. Si estas señales persisten por más de dos semanas o sugieren un riesgo mayor, se debe canalizar el caso al departamento de orientación escolar o a la familia siguiendo los protocolos de la institución.</p>
+        </div>
+
+        <div class="card izquierda">
+            <img src="img/padres.webp">
+            <h2>Para padres de familia</h2>
+            <p>Para dialogar con confianza sobre el tiempo en pantalla y las emociones en el entorno digital, es fundamental acercarse desde la curiosidad genuina y sin juicios, mostrando interés real por lo que ven, juegan o comparten antes de hablar de límites o reglas. Conviene elegir un momento tranquilo —nunca en medio de un conflicto o justo al pedirles que apaguen un dispositivo—, validar lo que sienten respecto a la presión social o la frustración en línea, y hacer preguntas abiertas sobre cómo ciertas aplicaciones o contenidos afectan su ánimo y descanso. Asimismo, compartir tus propias experiencias o dificultades para desconectarte genera empatía, permite construir acuerdos en conjunto sobre horarios libres de pantallas y refuerza la confianza de que pueden acudir a ti si algo en internet los hace sentir incómodos o sobrepasados.</p>
+        </div>
+    </div>
+
+</body>
+</html>

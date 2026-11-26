@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario - El ABC de las Emociones</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+            background-color: rgb(225, 240, 220);
+        }
+
+        nav {
+            background-color: rgba(17, 94, 58, 0.616);
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: rgb(255, 255, 255);
+            background-color: rgba(137, 245, 137, 0.473);
+            padding: 14px 20px;
+            margin: 6px;
+            border-radius: 15px;
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: rgb(151, 179, 143);
+            color: rgba(29, 153, 35, 0.829);
+        }
+
+        h1 {
+            text-align: center;
+            color: rgb(4, 78, 33);
+            margin-top: 30px;
+        }
+
+        .contenedor {
+            display: flex;
+            justify-content: center;
+            max-width: 1000px;
+            margin: 40px auto 20px auto;
+        }
+
+        .card {
+            background-color: rgb(159, 232, 250);
+            border-radius: 10px;
+            padding: 25px;
+            width: 450px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        input, textarea {
+            width: 90%;
+            padding: 8px;
+            margin-top: 6px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: rgb(4, 78, 33);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="home.html">Inicio</a>
+        <a href="programa_abc.html">Descripcion del programa</a>
+        <a href="actividad_recreativa.html">Actividades Recreativas</a>
+        <a href="directorio_de_apoyo.html">Directorios de apoyo</a>
+        <a href="secciones_informativas.html">Secciones informativas</a>
+        <a href="integrantes.html">Integrantes</a>
+        <a href="formulario.html">Formulario</a>
+    </nav>
+
+    <h1>Formulario de Contacto</h1>
+
+    <div class="contenedor">
+        <div class="card">
+            <form>
+                <p>Nombre:</p>
+                <input type="text" placeholder="Escribe tu nombre">
+
+                <p>Correo electrónico:</p>
+                <input type="email" placeholder="Escribe tu correo">
+
+                <p>¿Cómo vives o sientes el mundo virtual?</p>
+                <textarea rows="4" placeholder="Escribe tu mensaje aquí..."></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
